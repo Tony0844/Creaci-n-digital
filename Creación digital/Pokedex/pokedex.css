@@ -1,0 +1,15 @@
+#caja-planta{
+    background-color: black;
+    
+}
+
+
+.bulbasur{
+    background: linear-gradient(45deg, green, purple);
+
+}
+
+#ivysaur{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

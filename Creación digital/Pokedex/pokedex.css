@@ -1,15 +1,72 @@
-#caja-planta{
-    background-color: black;
-    
+
+h1{
+    text-align: center;
+
+}
+
+.pokemon-bulbasur {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.tipos {
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    margin-left: 250px;
 }
 
 
-.bulbasur{
+.caja-planta,.caja-veneno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25%;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+
+.bulbasur {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
     background: linear-gradient(45deg, green, purple);
-
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
 }
 
-#ivysaur{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.ivysaur{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(45deg, green, purple);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
 }
+
+.venusaur{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(45deg, green, purple);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+

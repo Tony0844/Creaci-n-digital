@@ -1,27 +1,34 @@
-
-h1{
-    text-align: center;
-
+body{
+    font-family: sans-serif;
 }
 
-.pokemon-bulbasur {
+
+
+.nombre-pokemon{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+}
+
+/*Disposicion de los divs de los pokemons*/
+.pokemon-bulbasur, .pokemon-charmander, .pokemon-squirtle, .pokemon-caterpie, .pokemon-weedle, .pokemon-pidgey{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
     padding: 20px;
-    font-family: sans-serif;
 }
 
+/*Estilo de caja de los tipos*/
 .tipos {
     display: flex;
     flex-direction: row;
     gap: 350px;
-    margin-left: 250px;
+    margin: 25px;
 }
 
-
-.caja-planta,.caja-veneno {
+/* Estilo de las cajas con los tipos dentro*/
+.caja-planta,.caja-veneno,.caja-fuego, .caja-volador, .caja-agua, .caja-bicho, .caja-normal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,38 +42,116 @@ h1{
     text-align: center;
 }
 
+/* Bulbasur*/
 
-
-.bulbasur {
+.bulbasur, .ivysaur, .venusaur{
     width: 100%; 
     display: flex;
     align-items: center;
     gap: 20px;
-    background: linear-gradient(45deg, green, purple);
+    background: linear-gradient(45deg, #78C850, #A040A0);
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; 
 }
 
-.ivysaur{
+
+
+/* Charmander*/
+
+.pokemon-charmander{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.charmander, .charmaleon{
     width: 100%; 
     display: flex;
     align-items: center;
     gap: 20px;
-    background: linear-gradient(45deg, green, purple);
+    background-color: #FF5733;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.charizard{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(45deg, #FF5733,#5DADE2);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
+/*Squirtle*/
+
+.squirtle, .wartortle, .blastoise{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #B2EBF2;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/*Caterpie*/
+
+.caterpie, .metapod{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #7BB661;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; 
 }
 
-.venusaur{
+.butterfree{
     width: 100%; 
     display: flex;
     align-items: center;
     gap: 20px;
-    background: linear-gradient(45deg, green, purple);
+    background: linear-gradient(45deg, #7BB661, #5DADE2);
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; 
 }
 
+/*Weedle*/
+
+.weedle, .kakuna, .beedrill{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(45deg, #F5C97F, #A040A0);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+/*Pidgey*/
+
+.pidgey, .pidgeotto, .pidgeot{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(45deg, #D6C59A, #5DADE2);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}

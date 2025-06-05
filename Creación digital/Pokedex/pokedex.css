@@ -2,6 +2,9 @@ body{
     font-family: sans-serif;
 }
 
+h1{
+    text-align: center;
+}
 
 
 .nombre-pokemon{
@@ -10,148 +13,107 @@ body{
     width: 100px;
 }
 
-/*Disposicion de los divs de los pokemons*/
-.pokemon-bulbasur, .pokemon-charmander, .pokemon-squirtle, .pokemon-caterpie, .pokemon-weedle, .pokemon-pidgey{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-}
 
-/*Estilo de caja de los tipos*/
-.tipos {
-    display: flex;
-    flex-direction: row;
-    gap: 350px;
+/* Bulbasur*/
+.bulbasur, .ivysaur, .venusaur{
+    border: 2px black solid;
+    background: linear-gradient(to bottom, green, violet);
+    border-radius: 10px;
+    float: left;
     margin: 25px;
 }
 
-/* Estilo de las cajas con los tipos dentro*/
-.caja-planta,.caja-veneno,.caja-fuego, .caja-volador, .caja-agua, .caja-bicho, .caja-normal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    border: 2px solid black;
-    border-radius: 25%;
-    background-color: transparent;
-    font-weight: bold;
-    color: black;
-    text-align: center;
+.bulbasur:hover, .ivysaur:hover, .venusaur:hover{
+    opacity: 0.7;
 }
 
-/* Bulbasur*/
-
-.bulbasur, .ivysaur, .venusaur{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: linear-gradient(45deg, #78C850, #A040A0);
-    padding: 20px;
-    border-radius: 10px;
-    box-sizing: border-box; 
-}
 
 
 
 /* Charmander*/
-
-.pokemon-charmander{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-}
-
 .charmander, .charmaleon{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #FF5733;
-    padding: 20px;
+    border: 2px black solid;
+    background-color: rgb(240, 106, 106);
     border-radius: 10px;
-    box-sizing: border-box;
+    float: left;
+    margin: 25px;
 }
 
 .charizard{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: linear-gradient(45deg, #FF5733,#5DADE2);
-    padding: 20px;
+    border: 2px black solid;
+    background: linear-gradient(to bottom, rgb(240, 106, 106),rgb(135, 212, 243));
     border-radius: 10px;
-    box-sizing: border-box;
+    float: left;
+    margin: 25px;
+}
+
+.charmander:hover, .charmaleon:hover, .charizard:hover{
+    opacity: 0.7;
 }
 
 
 
 /*Squirtle*/
-
 .squirtle, .wartortle, .blastoise{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #B2EBF2;
-    padding: 20px;
+    border: 2px black solid;
+    background-color: rgb(72, 179, 211);
     border-radius: 10px;
-    box-sizing: border-box;
+    float: left;
+    margin: 25px;
 }
+
+.squirtle:hover, .wartortle:hover, .blastoise:hover{
+    opacity: 0.7;
+}
+
+
 
 
 /*Caterpie*/
-
 .caterpie, .metapod{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #7BB661;
-    padding: 20px;
+    border: 2px black solid;
+    background-color: rgb(110, 187, 10);
     border-radius: 10px;
-    box-sizing: border-box; 
+    float: left;
+    margin: 25px;
 }
 
 .butterfree{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: linear-gradient(45deg, #7BB661, #5DADE2);
-    padding: 20px;
+    border: 2px black solid;
+    background: linear-gradient(to bottom, rgb(0, 253, 0), rgb(72, 179, 211));
     border-radius: 10px;
-    box-sizing: border-box; 
+    float: left;
+    margin: 25px;
 }
+
+.caterpie:hover, .metapod:hover, .butterfree:hover{
+    opacity: 0.7;
+}
+
 
 /*Weedle*/
-
 .weedle, .kakuna, .beedrill{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: linear-gradient(45deg, #F5C97F, #A040A0);
-    padding: 20px;
+    border: 2px black solid;
+    background: linear-gradient(to bottom,  rgb(0, 253, 0), violet);
     border-radius: 10px;
-    box-sizing: border-box; 
+    float: left;
+    margin: 25px;
 }
 
-/*Pidgey*/
+.weedle:hover, .kakuna:hover, .beedrill:hover{
+    opacity: 0.7;
+}
 
+
+/*Pidgey*/
 .pidgey, .pidgeotto, .pidgeot{
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: linear-gradient(45deg, #D6C59A, #5DADE2);
-    padding: 20px;
+    border: 2px black solid;
+    background: linear-gradient(to bottom, grey, rgb(72, 179, 211));
     border-radius: 10px;
-    box-sizing: border-box; 
+    float: left;
+    margin: 25px;
+}
+
+.pidgey:hover, .pidgeotto:hover, .pidgeot:hover{
+    opacity: 0.7;
 }
